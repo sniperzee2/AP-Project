@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+}
+
+#nav2 {
+  border: 2px solid rgb(216, 216, 216);
+}
+#nav2 li a:hover,
+a:active,
+a:focus {
+  background-color: rgb(224, 224, 224);
+  border-radius: 4px;
+}
+
+.button:hover{
+  background-color: #797979;
+}
+
+td a{
+  text-decoration: none;
+}
+footer{
+  background:#dddddd;
+}
+
+.img-just-order{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width:500px) {
+  .logo{
+    font-size: 0.8rem;
+    padding-left: 0;
+    margin-left: 0%;
+  }
+}
+@media only screen and (max-width:400px) {
+  .logo{
+    font-size: 0.6rem;
+    padding-left: 0;
+    margin-left: 0%;
+  }
+}
